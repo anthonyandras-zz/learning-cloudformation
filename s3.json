@@ -1,0 +1,14 @@
+{
+  "AWSTemplateFormatVersion" : "2010-09-09",
+
+  "Description" : "Create S3 bucket for hosting a website..",
+
+  "Resources" : {
+    "ImagesBucket" : {
+      "Type" : "AWS::S3::Bucket",
+      "Properties" : {
+        "BucketName" : "upa-images"
+      }
+    }
+  }
+}
